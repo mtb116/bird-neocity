@@ -1,0 +1,30 @@
+body {
+    background-color: #DCF7FF;
+}
+
+pre {
+    white-space: pre-line;
+}
+
+.socials {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px
+
+}
+
+.socials button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    
+    box-shadow: 10px 10px #BD504E;
+    margin-bottom: 20px;
+}
+
+.socials button:hover {
+    background-color: #BD504E;
+}

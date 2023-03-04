@@ -2,6 +2,19 @@ body {
     background-color: #DCF7FF;
 }
 
+body * {
+    border-radius: 10px;
+}
+
+#profileImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px
+}
+
 pre {
     white-space: pre-line;
 }
@@ -18,7 +31,6 @@ pre {
     width: 100%;
     height: 50px;
     border: none;
-    border-radius: 10px;
     background-color: white;
     
     box-shadow: 10px 10px #BD504E;
@@ -27,4 +39,10 @@ pre {
 
 .socials button:hover {
     background-color: #BD504E;
+}
+
+.projects {
+    border-style: solid;
+    border-color: #BD504E;
+    padding: 50px
 }

@@ -1,27 +1,30 @@
 body {
-    background-color: #DCF7FF;
+    background-image: linear-gradient(#429EC5, #77BDBB);
 }
 
 body * {
     border-radius: 10px;
+    text-align: "center";
+    margin: auto;
+    max-width: 640px;
 }
 
 #profileImage {
     display: block;
-    margin-left: auto;
+    margin-top: 80px;
     margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
     border-radius: 50%;
-    width: 220px;
-    height: 220px
+    width: 120px;
+    height: 120px
 }
 
 
-
-.socials {
-    text-align: center;
-    margin: auto;
-    width: 400px;
-    padding: 10px
+.container {
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%
 
 }
 
@@ -29,14 +32,12 @@ body * {
     width: 100%;
     height: 50px;
     border: none;
-    background-color: white;
-    
-    box-shadow: 10px 10px #BD504E;
+    box-shadow: 5px 5px #BD504E;
     margin-bottom: 20px;
 }
 
 .socials button:hover {
-    background-color: #BD504E;
+    background-color: #C04C55
 }
 
 .socials button img {
@@ -50,7 +51,18 @@ body * {
 }
 
 .projects {
-    border-style: solid;
-    border-color: #BD504E;
-    padding: 50px
+    background-color: #BD504E;
+    box-shadow: 5px 5px #DED8BE;
+    padding: 30px
+}
+
+.formEmbed {
+    background-color: #77BDBB;
+    box-shadow: 5px 5px #DED8BE;
+    margin-top: 30px
+}
+
+.formEmbed iframe {
+    width: 100%;
+    height: 500px;
 }

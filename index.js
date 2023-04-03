@@ -21,8 +21,12 @@ window.onload = function () {
 
             document.getElementById("socials").appendChild(btn)
           });
+
+          const mailList = document.querySelector("#mailList form")
+          if(mailList !== null) {
+            mailList.setAttribute("action", json.mailList)
+          }
           
-          document.querySelector("#mailList form").setAttribute("action", json.mailList)
             
          })
 

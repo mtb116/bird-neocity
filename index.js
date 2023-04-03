@@ -17,10 +17,14 @@ window.onload = function () {
             btn.setAttribute("type", "button")
             btn.setAttribute("onclick", "location.href='" + social.siteUrl + "';")
             btn.setAttribute("value", "Go to " + social.siteName)
+            btn.setAttribute("id", social.siteName)
             btn.appendChild(textNode)
 
             document.getElementById("socials").appendChild(btn)
           });
+
+          //verification for mastodon
+          document.getElementById("mastodon").setAttribute("ref", "me")
 
           const mailList = document.querySelector("#mailList form")
           if(mailList !== null) {

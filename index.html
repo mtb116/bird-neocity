@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Title</title>
     <script src="./index.js"></script>
     <link href="./index.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
@@ -13,17 +13,25 @@
             <img id="profileImage" src=""/>
             <div class="about">
                 <h1 id="name">Name</h1>
-                <p id="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. In</p>
+                <p id="blurb">Lorem ipsum dolor sit</p>
             </div>
             <div id="socials">
             </div>
             <div class="projects">
-                <h1>Projects</h1>
+                <h2>Header 2</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsa quidem fugit, est, eligendi excepturi quis eveniet consequatur alias accusamus voluptas voluptatem fugiat quos odit doloribus reprehenderit animi dolorem vel!</p>
             </div>
-            <div class="formEmbed">
-                <iframe id="emailSignup" src="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </div>
+            <button id="emailSignup">
+                <p>email signup</p>
+                <hr>
+                <form action="https://api.sheetmonkey.io/form/tMB3pfNEVzib6H2NsxmcZt" method="post">
+                    <input type="text" name="Name" placeholder="Name *" required /><br>
+                    <input type="email" name="Email" placeholder="Email *"required /><br>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                    <input type="submit" value="submit" />
+                </form>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia explicabo ullam possimus suscipit eum! Quasi delectus inventore, nulla blanditiis praesentium ab odio fuga error corrupti architecto, distinctio sed, corporis doloribus.</p>
+            </button>
         </div>
     </div>
 </body>

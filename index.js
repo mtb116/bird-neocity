@@ -22,7 +22,7 @@ window.onload = function () {
             document.getElementById("socials").appendChild(btn)
           });
           
-          document.querySelector("#emailSignup").setAttribute("src", json.emailSignup.src)
+          document.querySelector("#mailList form").setAttribute("action", json.mailList)
             
          })
 

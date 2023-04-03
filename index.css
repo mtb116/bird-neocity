@@ -65,7 +65,7 @@ button {
     text-align: left;
 }
 
-#emailSignup p {
+#mailList p {
     margin: 10px;
 }
 
@@ -100,7 +100,7 @@ form :last-child:hover {
     color: white
 }
 
-#emailSignup p:last-child {
+#mailList p:last-child {
     font-size: 12px;
     text-align: left;
 }

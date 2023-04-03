@@ -1,6 +1,5 @@
 window.onload = function () {
 
-
     fetch('./userData.json')
         .then((reponse) => reponse.json())
         .then((json) => {

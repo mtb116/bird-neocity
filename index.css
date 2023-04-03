@@ -54,16 +54,10 @@ button {
     color: white
 }
 
-.projects {
-    background-color: #BD504E;
-    color: white;
+.projects img {
+    width: 100%;
     box-shadow: 5px 5px #DED8BE;
-    padding: 30px;
     margin-bottom: 20px;
-}
-
-.projects p {
-    text-align: left;
 }
 
 #mailList p {

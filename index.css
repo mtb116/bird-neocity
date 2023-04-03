@@ -10,16 +10,15 @@ body * {
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 80px;
     margin-right: 10%;
     margin-left: 10%;
 }
 
 #profileImage {
     display: block;
-    margin-top: 80px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     border-radius: 50%;
     width: 120px;
@@ -36,32 +35,72 @@ body * {
     margin-bottom: 5px;
 }
 
-#socials button {
+button {
     width: 100%;
-    height: 50px;
+    font-size: 18px;
     border: none;
+    background-color: white;
     box-shadow: 5px 5px #BD504E;
+}
+
+#socials button {
+    height: 50px;
     margin-bottom: 20px;
 }
 
 #socials button:hover {
-    background-color: #C04C55
+    background-color: #C04C55;
+    color: white
 }
 
 .projects {
     background-color: #BD504E;
+    color: white;
     box-shadow: 5px 5px #DED8BE;
-    padding: 30px
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
-.formEmbed {
-    background-color: #77BDBB;
-    box-shadow: 5px 5px #DED8BE;
-    margin-top: 30px;
-    height: 50vh
+.projects p {
+    text-align: left;
 }
 
-.formEmbed iframe {
-    width: 100%;
-    height: 100%
+#emailSignup p {
+    margin: 10px;
+}
+
+hr {
+    color: #BD504E
+}
+
+input {
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: whitesmoke
+}
+
+
+form :last-child {
+    background-color: white;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #BD504E;
+    color: #BD504E;
+    margin: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px
+}
+
+form :last-child:hover {
+    background-color: #BD504E;
+    color: white
+}
+
+#emailSignup p:last-child {
+    font-size: 12px;
+    text-align: left;
 }
